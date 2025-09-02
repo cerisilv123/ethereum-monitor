@@ -99,8 +99,8 @@ sequenceDiagram
 
 ### Clone
 ```bash
-git clone <this-repo>
-cd eth-monitor
+git clone https://github.com/cerisilv123/ethereum-monitor.git
+cd ethereum-monitor
 ```
 
 ### Start Kafka (local)
@@ -200,7 +200,7 @@ Published to Kafka as JSON (keyed by `user_id`):
 ## Project Structure
 
 ```
-eth-monitor/
+ethereum-monitor/
   cmd/service/               # Service entrypoint
   internal/config/           # Env config loader + validation
   internal/models/           # Models
